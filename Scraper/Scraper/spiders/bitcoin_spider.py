@@ -1,6 +1,6 @@
 import scrapy
 import logging
-from ..items import ZrozumiecbitcSpiderItem, BitcoinSpiderItem
+from Crypto_nlp.Scraper.Scraper.items import ZrozumiecbitcSpiderItem, BitcoinSpiderItem
 import os.path
 from pathlib import Path
 import sys

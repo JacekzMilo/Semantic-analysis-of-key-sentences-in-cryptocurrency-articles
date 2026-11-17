@@ -1,6 +1,6 @@
 import scrapy
 import logging
-from ..items import ZrozumiecbitcSpiderItem, BitcoinSpiderItem
+from Crypto_nlp.Scraper.Scraper.items import ZrozumiecbitcSpiderItem, BitcoinSpiderItem
 import os.path
 from pathlib import Path
 import sys
@@ -26,7 +26,7 @@ class BitcoinMagazineSpider(scrapy.Spider):
         # yield {"link": link, "title": title}
         # yield {"meta": response}
         yield response.follow(url=link, callback=self.parse_bitcoin_magazine_spider, meta={'bitcoin_magazine_spider_title': title, 'bitcoin_magazine_spider_link': full_url})
-
+        # print(title)
 
     def parse_bitcoin_magazine_spider(self, response):
         item = BitcoinSpiderItem()

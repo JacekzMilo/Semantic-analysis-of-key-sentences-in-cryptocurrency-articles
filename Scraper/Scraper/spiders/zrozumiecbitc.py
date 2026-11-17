@@ -1,6 +1,6 @@
 import scrapy
 import logging
-from ..items import ZrozumiecbitcSpiderItem
+from Crypto_nlp.Scraper.Scraper.items import ZrozumiecbitcSpiderItem
 
 
 class ZrozumiecbitcSpider(scrapy.Spider):

@@ -1,6 +1,5 @@
-# Aspect based semantic analysis with Python and NLP
-The aim of this project was to create a program that will read cryptocurrency related articles and output the report with 
-semantic analysis of sentences containing cryptocurrency names.   
+# Cryptocurrency Article Semantic Analysis
+This program reads cryptocurrency-related articles and produces a report with a semantic analysis of sentences containing cryptocurrency names. It uses Scrapy, Pandas, NLTK, Googletrans, NumPy, TextBlob, Seaborn, and regular expressions (re) to gather and analyze data. The report consists of two pages, showing the article link, title, and a bar plot of the semantic analysis of each sentence containing a cryptocurrency coin name. The second page displays three plots showing the distribution of semantic analysis, sentiment polarity, and coin frequency.  
 
 **Latest update**: readme added.
 
@@ -13,13 +12,10 @@ semantic analysis of sentences containing cryptocurrency names.
 5. [Steps](#steps)
 
 ## Installation
-The code requires Python versions of 3.* and general libraries available through the Anaconda package. 
-In addition, Scrapy, Pandas, NLTK, Googletrans, Numpy, Textblob, Seaborn, Re need to be 
-installed to be able to run the script. 
+To run this program, you will need Python 3.* and the libraries available through the Anaconda package. In addition, you will need to install Scrapy, Pandas, NLTK, Googletrans, NumPy, TextBlob, Seaborn, and the re module.
 
 ## Project Motivation <a name="motivation"></a>
-I wanted to create a bigger project that will extract data, analyse them and output result in a form of report. 
-Through that project I wanted to learn as much as can in mentioned areas. 
+The goal of this project was to create a program that could extract and analyze data from cryptocurrency articles and produce a report. It was an opportunity to learn more about data scraping, text analysis, and data visualization. 
 
 ## To Do <a name="todo"></a>
 1. TODO: Add RSS trigger 
